@@ -7,7 +7,7 @@ import java.util.Map;
 public final class SequenceCache {
     private final Map<Integer, Worker> cache = new HashMap<>();
 
-    int length(int startingValue) throws Exception {
+    public int length(int startingValue) throws Exception {
         if (!cache.containsKey(startingValue))
             cache.put(startingValue, new Worker(startingValue));
 

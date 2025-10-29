@@ -1,5 +1,6 @@
-package ch.supsi.worker;
+package serie1.worker;
 
+import org.example.serie1.worker.Worker;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
