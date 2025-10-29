@@ -1,4 +1,6 @@
-import org.example.MyList;
+package serie3;
+
+import org.example.serie3.MyList;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.serie3;
 
 public interface MyIterator<T> {
     void rewind();
