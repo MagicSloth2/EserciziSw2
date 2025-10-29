@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f21fe4-d0a7-4a69-adfa-5ebd16982efd" name="Changes" comment="" />
+    <list default="true" id="bfdd9866-e657-4749-90b7-ba1ba2e9acfc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,45 +18,38 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="33TLAg1vzA4PpFt81msfjheCZQs" />
+  <component name="ProjectId" id="348zii133mqIKzscLMx0Hsv1te0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceCacheTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WorkerTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matti/Documents/Scuola/Ultimo_anno/Primo_semestre/Ing_software/Pedrazzini/Esercizi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.MyListTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/matti/Documents/Scuola/Ultimo_anno/Primo_semestre/Ing_software/Pedrazzini/Es_design_pattern/design_pattern/src/main/java/org/example/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="JUnit.MyListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLM.Main" />
-      <module name="Esercizi" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLM.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,19 +57,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Esercizi" />
+    <configuration name="MyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SequenceCacheTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Esercizi" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WorkerTest" />
+      <option name="MAIN_CLASS_NAME" value="MyListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,9 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyListTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SequenceCacheTest" />
-        <item itemvalue="JUnit.WorkerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -98,26 +81,17 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8f21fe4-d0a7-4a69-adfa-5ebd16982efd" name="Changes" comment="" />
-      <created>1759335974025</created>
+      <changelist id="bfdd9866-e657-4749-90b7-ba1ba2e9acfc" name="Changes" comment="" />
+      <created>1760610116741</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1759335974025</updated>
-      <workItem from="1759335975058" duration="75000" />
-      <workItem from="1759336068810" duration="764000" />
-      <workItem from="1759338885786" duration="743000" />
-      <workItem from="1759351673585" duration="183000" />
-      <workItem from="1759379320528" duration="9000" />
-      <workItem from="1759395952531" duration="481000" />
-      <workItem from="1759396449761" duration="181000" />
-      <workItem from="1759396698846" duration="2623000" />
-      <workItem from="1759654082144" duration="120000" />
-      <workItem from="1760004881161" duration="3487000" />
-      <workItem from="1760609967882" duration="105000" />
-      <workItem from="1760610166148" duration="10000" />
+      <updated>1760610116741</updated>
+      <workItem from="1760610118175" duration="45000" />
+      <workItem from="1760610178960" duration="3316000" />
+      <workItem from="1761029592362" duration="14000" />
+      <workItem from="1761216434759" duration="1852000" />
     </task>
     <servers />
   </component>
