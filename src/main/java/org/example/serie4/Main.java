@@ -26,8 +26,7 @@ public class Main {
         }
 
 
-        // 🔥 Ora provo a cambiare un valore della lista
         System.out.println("\n--- Modifico un elemento della lista ---");
-        list.setValue(1, "Mango"); // Cambia "Banana" → "Mango"
+        list.setValue(1, "Mango");
     }
 }
