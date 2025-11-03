@@ -1,4 +1,4 @@
-package org.example.serie3;
+package org.example.serie3.es1;
 
 public class Main {
     public static void main(String[] args) {

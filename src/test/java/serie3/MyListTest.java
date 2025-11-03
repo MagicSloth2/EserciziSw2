@@ -1,6 +1,6 @@
 package serie3;
 
-import org.example.serie3.MyList;
+import org.example.serie3.es1.MyList;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

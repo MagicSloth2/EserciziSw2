@@ -1,30 +1,27 @@
-package org.example.serie3;
+package org.example.serie3.es1;
 
-public class BackwardIterator<T> implements MyIterator<T> {
+public class ForwardIterator<T> implements MyIterator<T> {
     private MyList<T> list;
     private int currentPos;
-
-    public BackwardIterator(MyList<T> list) {
+    public ForwardIterator(MyList<T> list) {
         this.list = list;
         rewind();
     }
-
     @Override
     public void rewind() {
-        currentPos = list.length();
+        currentPos = 0;
     }
-
     @Override
     public T nextElement() {
         if (hasMoreElements()) {
-            return list.getElement(--currentPos);
+            return list.getElement(currentPos++);
         }
         throw new RuntimeException("Index out of bound");
     }
-
-
     @Override
     public boolean hasMoreElements() {
-        return currentPos > 0;
+        return currentPos < list.length();
     }
 }
+
+
