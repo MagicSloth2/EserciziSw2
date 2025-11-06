@@ -4,7 +4,7 @@ import org.example.serie3.es1.MyList;
 
 import java.util.List;
 
-/** Combine multiple outputs (Composite pattern) */
+
 public class MultiOutput implements OutputStrategy {
     private final List<OutputStrategy> outputs;
 
