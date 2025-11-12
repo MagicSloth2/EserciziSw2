@@ -7,10 +7,7 @@ import java.util.List;
 
 public class FileReaderApp {
 
-    public void processFile(String filename,
-                            TextConverter converter,
-                            OutputStrategy output,
-                            List<Statistic> statistics) {
+    public void processFile(String filename, TextConverter converter, OutputStrategy output, List<Statistic> statistics) {
 
         MyList<String> lines = new MyList<>();
 
