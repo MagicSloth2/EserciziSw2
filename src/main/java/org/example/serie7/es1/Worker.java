@@ -1,4 +1,4 @@
-package org.example.serie7.es1.worker;
+package org.example.serie7.es1;
 
 public final class Worker {
     private final int startingValue;

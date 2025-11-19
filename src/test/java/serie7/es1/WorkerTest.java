@@ -1,4 +1,4 @@
-package serie7.es1.worker;
+package serie7.es1;
 
 import org.example.serie1.worker.Worker;
 import org.junit.jupiter.api.BeforeEach;
