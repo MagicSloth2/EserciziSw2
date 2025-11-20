@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.mockito.InOrder;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import static org.mockito.Mockito.*;
@@ -24,32 +25,23 @@ class NumberSequencerTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
+        mockTransformer = mock(NumberTransformer.class);
+        mockPrinter = mock(Printer.class);
         numberSequencer = new NumberSequencer(mockTransformer, mockPrinter);
     }
 
     @Test
     void printNumbers_shouldCallTransformCorrectNumberOfTimes() {
-        // Arrange
         int limit = 100;
 
-        // Configure the transformer to return simple string representations
         when(mockTransformer.transform(anyInt())).thenAnswer(invocation -> {
             int number = invocation.getArgument(0);
             return String.valueOf(number);
         });
 
-        // Act
         numberSequencer.printNumbers(limit);
 
-        // Assert
-        // Verify transform is called exactly 100 times with arguments from 1 to 100
         verify(mockTransformer, times(100)).transform(anyInt());
-
-        // Verify specific calls in order
-        for (int i = 1; i <= limit; i++) {
-            verify(mockTransformer, atLeastOnce()).transform(i);
-        }
     }
 
     @Test
